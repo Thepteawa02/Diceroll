@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:ze04/stylez.dart';
+import 'package:ze04/diceroll.dart';
 
 class GContainer extends StatelessWidget{
   GContainer({super.key});
+
 
   Widget build(context){
     return Container(
@@ -14,7 +16,6 @@ class GContainer extends StatelessWidget{
         begin: Alignment.topRight,
         end: Alignment.bottomLeft)),
         child: Center(
-        child: Stylez()
-        ));
+        child: DiceThrown()));
   }
 }
